@@ -6,6 +6,6 @@ def join_nested_strings(src)
   while src[row] do
     col = 0
     while src[row][col] do
-      if src[row][col].Class == string 
+      if src[row][col].is_a?(String)
         
 end
