@@ -13,6 +13,6 @@ def join_nested_strings(src)
     end
     row += 1
   end
-  p %qnew_array
+  p %q new_array
         
 end
