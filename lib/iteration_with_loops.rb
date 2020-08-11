@@ -6,7 +6,13 @@ def join_nested_strings(src)
   while src[row] do
     col = 0
     while src[row][col] do
-      src[row][col].is_a?(String) ? 
-        
+      if src[row][col].is_a?(String)
+        new_array <<  src[row][col]
+      end
+      col += 1 
+    end
+    row += 1
+  end
+  p new_array
         
 end
